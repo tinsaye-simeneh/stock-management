@@ -1,0 +1,11 @@
+{
+  "signup": "Sign Up",
+  "phone": "Phone Number",
+  "password": "Password",
+  "enter_phone": "Enter your phone number",
+  "enter_password": "Enter your password",
+  "signup_success": "Signup successful!",
+  "signup_failed": "Signup failed. Please try again.",
+  "invalid_phone": "Invalid phone number",
+  "password_too_short": "Password must be at least 6 characters"
+}
