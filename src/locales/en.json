@@ -1,11 +1,20 @@
 {
-  "signup": "Sign Up",
-  "phone": "Phone Number",
+  "invalid_phone": "Invalid phone number",
+  "password_too_short": "Password should include at least 6 characters",
+  "accept_terms_required": "You must accept terms and conditions",
+  "auth_failed": "Authentication failed",
+  "signup_success": "Signup successful",
+  "login_success": "Login successful",
+  "welcome_back": "Welcome back! Login with",
+  "create_account": "Create a new account",
+  "or_continue_with_phone": "Or continue with your phone number",
+  "phone": "Phone",
   "password": "Password",
   "enter_phone": "Enter your phone number",
   "enter_password": "Enter your password",
-  "signup_success": "Signup successful!",
-  "signup_failed": "Signup failed. Please try again.",
-  "invalid_phone": "Invalid phone number",
-  "password_too_short": "Password must be at least 6 characters"
+  "accept_terms": "I accept terms and conditions",
+  "already_have_account": "Already have an account? Login",
+  "dont_have_account": "Don't have an account? Register",
+  "login": "Login",
+  "signup": "Signup"
 }
