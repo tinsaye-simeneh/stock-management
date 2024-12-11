@@ -3,7 +3,7 @@
 import "@mantine/core/styles.css";
 import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 import { Notifications } from "@mantine/notifications";
-import "../styles/globals.css";
+import "./globals.css";
 import { I18nextProvider } from "react-i18next";
 import i18n from "@/services/i18n";
 
