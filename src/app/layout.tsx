@@ -6,6 +6,7 @@ import { Notifications } from "@mantine/notifications";
 import "./globals.css";
 import { I18nextProvider } from "react-i18next";
 import i18n from "@/services/i18n";
+import Navbar from "@/components/Navbar";
 
 export default function RootLayout({
   children,
@@ -19,8 +20,8 @@ export default function RootLayout({
       </head>
       <body>
         <MantineProvider>
+          <Navbar />
           <Notifications />
-
           <I18nextProvider i18n={i18n}>{children}</I18nextProvider>
         </MantineProvider>
       </body>

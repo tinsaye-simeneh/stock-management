@@ -26,10 +26,10 @@ export default function Navbar() {
   ];
 
   return (
-    <header style={{ backgroundColor: "#f8f9fa" }}>
+    <header style={{ backgroundColor: "#f8f9fa" }} className="p-4">
       <div className="flex justify-between items-center h-full">
-        <Text size="xl" style={{ color: "#007bff" }}>
-          BrandName
+        <Text size="xl" style={{ color: "#09133c" }}>
+          Stock Management
         </Text>
 
         {isMobile ? (
