@@ -26,7 +26,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header style={{ backgroundColor: "#f8f9fa" }} className="p-4">
+    <header style={{ backgroundColor: "#f8f9fa" }} className="p-4 sticky top-0">
       <div className="flex justify-between items-center h-full">
         <Text size="xl" style={{ color: "#09133c" }}>
           Stock Management
